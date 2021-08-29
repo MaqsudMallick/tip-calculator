@@ -10,6 +10,7 @@
 }
 
 .heading {
+  display: block;
   text-align: center;
   color: hsl(186, 14%, 28%);
   margin: 140px 0 70px 0;
@@ -68,6 +69,7 @@
   border-radius: 10px;
   margin: 30px;
 }
+
 .custom,
 .white-text span,
 .caption,
@@ -119,15 +121,15 @@ body,
   background-color: hsl(185, 41%, 84%);
 }
 
-span.dollar,
-span.data-1,
-span.data-2 {
+.dollar,
+.data-1,
+.data-2 {
   color: hsl(186, 14%, 43%);
   margin: 10px;
   font-size: 25px;
 }
-span.data-1,
-span.data-2 {
+.data-1,
+.data-2 {
   text-align: right;
   display: inline-block;
   width: 320px;
@@ -154,4 +156,78 @@ span.data-2 {
 .clicked {
   border: 2px solid;
   border-color: hsl(172, 67%, 45%);
+}
+
+@media screen and (max-width: 1100px) {
+  .heading {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .con {
+    width: 700px;
+  }
+  .section-1,
+  .section-2 {
+    width: 330px;
+    margin: 15px 10px;
+  }
+  .reset {
+    width: 300px;
+    margin: 140px 0 0 5px;
+    border: 0;
+    padding: 0;
+  }
+  .text-box {
+    width: 300px;
+  }
+  .data-1,
+  .data-2 {
+    margin-left: 0;
+    width: 240px;
+  }
+  .caption {
+    margin: 0;
+  }
+  .result {
+    margin-left: 5px;
+  }
+  .warning {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .con {
+    width: 350px;
+    height: 810px;
+  }
+  .section-1,
+  .section-2 {
+    margin: auto;
+    height: 415px;
+  }
+  .section-2 {
+    margin-top: 100px;
+    height: 280px;
+  }
+  .caption {
+    margin-top: 45px;
+    margin-bottom: 10px;
+  }
+  .caption-top {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .reset {
+    margin-top: 0px;
+  }
+  .heading {
+    margin: 30px auto 30px auto;
+  }
 }
