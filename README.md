@@ -8,13 +8,10 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,11 +25,12 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
+![](./screenshot-mobile.jpg)
 
 ### Links
 
 - Solution URL: (https://github.com/MaqsudMallick/tip-calculator/)
-- Live Site URL: ()
+- Live Site URL: (https://maqsudmallick.github.io/tip-calculator/)
 
 ### Built with
 
@@ -45,6 +43,10 @@ Users should be able to:
 
 ### What I learned
 
+-toggling between different buttons
+-refreshing the page with location.reload()
+-stopping event bubbling with event.stopProgresion()
+-using visibility property to toggle visibiltiy of class
 
 
 ## Author
