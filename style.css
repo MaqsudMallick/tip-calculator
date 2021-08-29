@@ -1,0 +1,157 @@
+.caption,
+.white-text,
+.text-box,
+.decimals,
+.reset,
+.heading,
+.btn-dark {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+}
+
+.heading {
+  text-align: center;
+  color: hsl(186, 14%, 28%);
+  margin: 140px 0 70px 0;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.con {
+  width: 940px;
+  height: 480px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.caption {
+  margin-top: 45px;
+}
+
+.white-text {
+  font-size: 15px;
+  color: white;
+}
+
+.white-text span {
+  font-size: 11x;
+}
+
+.text-box {
+  border-radius: 5px;
+  width: 380px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.btn {
+  width: 115px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 7px 5px;
+  font-size: 22px;
+}
+
+.decimals {
+  text-align: right;
+  color: hsl(172, 67%, 45%);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.section-1,
+.section-2 {
+  height: 415px;
+  width: 415px;
+  border-radius: 10px;
+  margin: 30px;
+}
+.custom,
+.white-text span,
+.caption,
+.caption-top {
+  color: hsl(186, 14%, 43%);
+}
+
+.result,
+.reset {
+  margin: 35px 35px 0 35px;
+}
+
+.reset {
+  width: 330px;
+  margin-top: 110px;
+  font-size: 20px;
+  color: hsl(183, 100%, 15%);
+  font-weight: 700;
+}
+
+.custom,
+.btn:hover {
+  border-color: white;
+}
+
+.caption,
+.caption-top {
+  font-size: 15px;
+}
+
+.section-2,
+.btn {
+  background-color: hsl(183, 100%, 15%);
+}
+
+.btn:hover,
+.reset {
+  background-color: hsl(172, 67%, 45%);
+}
+
+body,
+.text-box,
+.custom {
+  background-color: hsl(185, 41%, 84%);
+}
+
+.reset:hover {
+  border-color: hsl(185, 41%, 84%);
+  background-color: hsl(185, 41%, 84%);
+}
+
+span.dollar,
+span.data-1,
+span.data-2 {
+  color: hsl(186, 14%, 43%);
+  margin: 10px;
+  font-size: 25px;
+}
+span.data-1,
+span.data-2 {
+  text-align: right;
+  display: inline-block;
+  width: 320px;
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+
+/* Javascript */
+
+.warning {
+  margin-left: 90px;
+  color: red;
+  visibility: hidden;
+}
+
+.warning-border {
+  border: 2px solid;
+  border-color: red;
+}
+.pressed {
+  background-color: hsl(172, 67%, 45%);
+  border-color: white;
+}
+.clicked {
+  border: 2px solid;
+  border-color: hsl(172, 67%, 45%);
+}

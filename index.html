@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class= "heading">SPLI<br>TTER</div>
+    <div class = "con">
+    <div class="row">
+      <div class="col-6 section-1">
+        <div class= "caption-top">Bill</div>
+        <div class= "text-box text-box-1" type="text"><span class= "dollar">$</span><span class = "data-1">0</span></div>
+        <div class= "caption">Select Tip%</div>
+        <div>
+          <div class="btn btn-dark">5%</div>
+          <div class="btn btn-dark">10%</div>
+          <div class="btn btn-dark">15%</div>
+        </div>
+        <div>
+          <div class="btn btn-dark">20%</div>
+          <div class=" btn btn-dark">25%</div>
+          <div class="btn btn-dark custom">Custom</div>
+        </div>
+        <div class= "caption">Number of People <span class="warning">Can't be zero</span></div>
+        <div class= "text-box text-box-2" type="text"><span class= "dollar"><image src="images/icon-person.svg" alt="person"></image></span><span class = "data-2">0</span></div>
+      </div>
+      <div class="col-6 section-2">
+        <div class= "result row">
+          <div class ="white-text col-6">Tip Amount <br><span>/ person</span></div>
+          <div class ="tip-Amount decimals col-6">$0.00</div>
+        </div> 
+        <hr>
+        <div class= "result row">
+          <div class ="white-text col-6">Total <br><span>/ person</span></div>
+          <div class ="total decimals col-6">$0.00</div>
+        </div> 
+        <hr>
+        <button class= "btn btn-lg-light reset" type="button">RESET</button>
+      </div>
+    </div>
+  
+    <div style="display: none" class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Maqsud</a>.
+    </div>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Javascript -->
+    <script src= "main.js" defer></script>
+  </body>
+</html>
